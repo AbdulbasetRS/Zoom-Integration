@@ -1,0 +1,87 @@
+# Zoom API Fields
+
+- **agenda**: The agenda for the meeting.
+- **default_password**: Indicates if the meeting has a default password.
+- **duration**: Duration of the meeting in minutes.
+- **password**: Password for joining the meeting.
+- **pre_schedule**: Indicates if the meeting is pre-scheduled.
+- **recurrence**: 
+  - **end_date_time**: End date and time of the recurring meeting.
+  - **end_times**: Number of times the meeting will recur.
+  - **monthly_day**: Day of the month for the recurring meeting.
+  - **monthly_week**: Week of the month for the recurring meeting.
+  - **monthly_week_day**: Day of the week for the monthly recurrence.
+  - **repeat_interval**: Interval for repeating the meeting.
+  - **type**: Type of recurrence.
+  - **weekly_days**: Days of the week for the recurring meeting.
+- **schedule_for**: Email of the user for whom the meeting is scheduled.
+- **settings**:
+  - **additional_data_center_regions**: List of additional data center regions.
+  - **allow_multiple_devices**: Allow users to join from multiple devices.
+  - **alternative_hosts**: List of alternative hosts' emails.
+  - **alternative_hosts_email_notification**: Send email notifications to alternative hosts.
+  - **approval_type**: Approval type for meeting registration.
+  - **approved_or_denied_countries_or_regions**: 
+    - **approved_list**: List of approved countries.
+    - **denied_list**: List of denied countries.
+    - **enable**: Enable country/region approval.
+    - **method**: Approval method.
+  - **audio**: Audio type for the meeting (e.g., telephony).
+  - **audio_conference_info**: Audio conference information.
+  - **authentication_domains**: Domains for authentication.
+  - **authentication_exception**: List of users exempt from authentication.
+  - **authentication_option**: Authentication option for the meeting.
+  - **auto_recording**: Auto-recording settings (e.g., cloud).
+  - **breakout_room**: 
+    - **enable**: Enable breakout rooms.
+    - **rooms**: List of breakout rooms.
+  - **calendar_type**: Type of calendar integration.
+  - **close_registration**: Close registration after a certain time.
+  - **contact_email**: Contact email for the meeting.
+  - **contact_name**: Contact name for the meeting.
+  - **email_notification**: Enable email notifications.
+  - **encryption_type**: Type of encryption for the meeting.
+  - **focus_mode**: Enable focus mode.
+  - **global_dial_in_countries**: List of countries for global dial-in.
+  - **host_video**: Control whether the host's video is on.
+  - **jbh_time**: Join before host time.
+  - **join_before_host**: Allow participants to join before the host.
+  - **language_interpretation**: 
+    - **enable**: Enable language interpretation.
+    - **interpreters**: List of interpreters.
+  - **sign_language_interpretation**: 
+    - **enable**: Enable sign language interpretation.
+    - **interpreters**: List of sign language interpreters.
+  - **meeting_authentication**: Require authentication to join the meeting.
+  - **meeting_invitees**: List of meeting invitees.
+  - **mute_upon_entry**: Mute participants upon entry.
+  - **participant_video**: Control whether participants' video is on.
+  - **private_meeting**: Indicate if the meeting is private.
+  - **registrants_confirmation_email**: Send confirmation emails to registrants.
+  - **registrants_email_notification**: Send email notifications to registrants.
+  - **registration_type**: Type of registration.
+  - **show_share_button**: Show the share button.
+  - **use_pmi**: Use personal meeting ID.
+  - **waiting_room**: Enable waiting room.
+  - **watermark**: Enable watermark for the meeting.
+  - **host_save_video_order**: Save the order of videos.
+  - **alternative_host_update_polls**: Allow alternative hosts to update polls.
+  - **internal_meeting**: Indicate if the meeting is internal.
+  - **continuous_meeting_chat**: 
+    - **enable**: Enable continuous meeting chat.
+    - **auto_add_invited_external_users**: Auto-add invited external users.
+    - **auto_add_meeting_participants**: Auto-add meeting participants.
+  - **participant_focused_meeting**: Enable participant-focused meeting.
+  - **push_change_to_calendar**: Push changes to the calendar.
+  - **resources**: List of resources used in the meeting.
+  - **auto_start_meeting_summary**: Enable auto-start meeting summary.
+  - **auto_start_ai_companion_questions**: Enable auto-start AI companion questions.
+  - **device_testing**: Enable device testing.
+- **start_time**: Start time of the meeting.
+- **template_id**: ID of the meeting template.
+- **timezone**: Timezone of the meeting.
+- **topic**: Topic of the meeting.
+- **tracking_fields**: 
+  - **field**: Custom tracking field.
+  - **value**: Value for the tracking field.
+- **type**: Type of meeting (e.g., scheduled, instant).

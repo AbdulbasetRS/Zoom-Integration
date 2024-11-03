@@ -1,0 +1,87 @@
+# حقول API الخاصة بZoom
+
+- **agenda**: جدول الأعمال للاجتماع.
+- **default_password**: يحدد إذا كان الاجتماع يحتوي على كلمة مرور افتراضية.
+- **duration**: مدة الاجتماع بالدقائق.
+- **password**: كلمة المرور للانضمام إلى الاجتماع.
+- **pre_schedule**: يحدد إذا كان الاجتماع مجدولًا مسبقًا.
+- **recurrence**:
+  - **end_date_time**: تاريخ ووقت انتهاء الاجتماع المتكرر.
+  - **end_times**: عدد مرات تكرار الاجتماع.
+  - **monthly_day**: يوم الشهر للاجتماع المتكرر.
+  - **monthly_week**: أسبوع الشهر للاجتماع المتكرر.
+  - **monthly_week_day**: يوم الأسبوع لتكرار الاجتماع الشهري.
+  - **repeat_interval**: فترة تكرار الاجتماع.
+  - **type**: نوع التكرار.
+  - **weekly_days**: أيام الأسبوع للاجتماع المتكرر.
+- **schedule_for**: البريد الإلكتروني للمستخدم الذي تم جدولة الاجتماع له.
+- **settings**:
+  - **additional_data_center_regions**: قائمة بمناطق مراكز البيانات الإضافية.
+  - **allow_multiple_devices**: السماح للمستخدمين بالانضمام من أجهزة متعددة.
+  - **alternative_hosts**: قائمة ببريد المضيفين البديلين.
+  - **alternative_hosts_email_notification**: إرسال إشعارات عبر البريد الإلكتروني للمضيفين البديلين.
+  - **approval_type**: نوع الموافقة لتسجيل الاجتماع.
+  - **approved_or_denied_countries_or_regions**:
+    - **approved_list**: قائمة بالدول المعتمدة.
+    - **denied_list**: قائمة بالدول المرفوضة.
+    - **enable**: تمكين الموافقة على الدول/المناطق.
+    - **method**: طريقة الموافقة.
+  - **audio**: نوع الصوت للاجتماع (مثل: الهاتف).
+  - **audio_conference_info**: معلومات المؤتمر الصوتي.
+  - **authentication_domains**: النطاقات الخاصة بالمصادقة.
+  - **authentication_exception**: قائمة بالمستخدمين المعفيين من المصادقة.
+  - **authentication_option**: خيار المصادقة للاجتماع.
+  - **auto_recording**: إعدادات التسجيل التلقائي (مثل: السحابة).
+  - **breakout_room**:
+    - **enable**: تمكين غرف المجموعات.
+    - **rooms**: قائمة بغرف المجموعات.
+  - **calendar_type**: نوع تكامل التقويم.
+  - **close_registration**: إغلاق التسجيل بعد فترة معينة.
+  - **contact_email**: البريد الإلكتروني للاتصال بالاجتماع.
+  - **contact_name**: الاسم للتواصل بشأن الاجتماع.
+  - **email_notification**: تمكين إشعارات البريد الإلكتروني.
+  - **encryption_type**: نوع التشفير للاجتماع.
+  - **focus_mode**: تمكين وضع التركيز.
+  - **global_dial_in_countries**: قائمة بالدول للاشتراك عبر الهاتف عالميًا.
+  - **host_video**: التحكم في ظهور فيديو المضيف.
+  - **jbh_time**: الوقت الذي يسمح بالانضمام قبل المضيف.
+  - **join_before_host**: السماح للمشاركين بالدخول قبل المضيف.
+  - **language_interpretation**:
+    - **enable**: تمكين الترجمة اللغوية.
+    - **interpreters**: قائمة بالمترجمين.
+  - **sign_language_interpretation**:
+    - **enable**: تمكين الترجمة بلغة الإشارة.
+    - **interpreters**: قائمة بمترجمي لغة الإشارة.
+  - **meeting_authentication**: يتطلب المصادقة للانضمام للاجتماع.
+  - **meeting_invitees**: قائمة بالمدعوين للاجتماع.
+  - **mute_upon_entry**: كتم صوت المشاركين عند الدخول.
+  - **participant_video**: التحكم في ظهور فيديو المشاركين.
+  - **private_meeting**: تحديد ما إذا كان الاجتماع خاصًا.
+  - **registrants_confirmation_email**: إرسال رسائل تأكيد للمدعوين.
+  - **registrants_email_notification**: إرسال إشعارات عبر البريد الإلكتروني للمدعوين.
+  - **registration_type**: نوع التسجيل.
+  - **show_share_button**: عرض زر المشاركة.
+  - **use_pmi**: استخدام معرف الاجتماع الشخصي.
+  - **waiting_room**: تمكين غرفة الانتظار.
+  - **watermark**: تمكين علامة مائية للاجتماع.
+  - **host_save_video_order**: حفظ ترتيب الفيديوهات.
+  - **alternative_host_update_polls**: السماح للمضيفين البديلين بتحديث الاستطلاعات.
+  - **internal_meeting**: تحديد ما إذا كان الاجتماع داخليًا.
+  - **continuous_meeting_chat**:
+    - **enable**: تمكين الدردشة المستمرة للاجتماع.
+    - **auto_add_invited_external_users**: إضافة المستخدمين الخارجيين المدعوين تلقائيًا.
+    - **auto_add_meeting_participants**: إضافة المشاركين في الاجتماع تلقائيًا.
+  - **participant_focused_meeting**: تمكين الاجتماع الذي يركز على المشاركين.
+  - **push_change_to_calendar**: دفع التغييرات إلى التقويم.
+  - **resources**: قائمة بالموارد المستخدمة في الاجتماع.
+  - **auto_start_meeting_summary**: تمكين ملخص الاجتماع التلقائي.
+  - **auto_start_ai_companion_questions**: تمكين أسئلة رفيق الذكاء الاصطناعي التلقائي.
+  - **device_testing**: تمكين اختبار الأجهزة.
+- **start_time**: وقت بدء الاجتماع.
+- **template_id**: معرف نموذج الاجتماع.
+- **timezone**: المنطقة الزمنية للاجتماع.
+- **topic**: موضوع الاجتماع.
+- **tracking_fields**:
+  - **field**: حقل تتبع مخصص.
+  - **value**: قيمة لحقل التتبع.
+- **type**: نوع الاجتماع (مثل: مجدول، فوري).

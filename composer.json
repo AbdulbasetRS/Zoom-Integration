@@ -1,0 +1,36 @@
+{
+    "name": "abdulbaset/zoom-integration",
+    "description": "This package provides an easy integration with Zoom's API, allowing developers to manage users, meetings, and more.",
+    "type": "library",
+    "license": "MIT",
+    "version": "1.0.0",
+    "homepage": "https://digitalatum.com",
+    "autoload": {
+        "psr-4": {
+            "Abdulbaset\\ZoomIntegration\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Abdulbaset R. Sayed",
+            "email": "AbdulbasetRedaSayedHF@Gmail.com"
+        },
+        {
+            "name": "Abdulbaset R. Sayed",
+            "email": "Abdulbaset_RS@DigitalAtum.com"
+        }
+    ],
+    "keywords": [
+        "php",
+        "zoom",
+        "integration",
+        "zoom-api",
+        "zoom-integration",
+        "meetings",
+        "users"
+    ],
+    "require": {
+        "php": "^8.0",
+        "guzzlehttp/guzzle": "^7.0"
+    }
+}
