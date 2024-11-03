@@ -85,3 +85,9 @@
   - **field**: Custom tracking field.
   - **value**: Value for the tracking field.
 - **type**: Type of meeting (e.g., scheduled, instant).
+
+## More Information
+
+You can find more details about all the fields used in the Zoom API by visiting the following source:
+
+[Source](https://developers.zoom.us/docs/api/rest/reference/zoom-api/methods/#operation/meetingCreate)

@@ -85,3 +85,9 @@
   - **field**: حقل تتبع مخصص.
   - **value**: قيمة لحقل التتبع.
 - **type**: نوع الاجتماع (مثل: مجدول، فوري).
+
+## مزيد من المعلومات
+
+ممكن تعرف تفاصيل أكتر عن كل الحقول المستخدمة في واجهة Zoom API من خلال زيارة المصدر ده:
+
+[المصدر](https://developers.zoom.us/docs/api/rest/reference/zoom-api/methods/#operation/meetingCreate)
