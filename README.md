@@ -117,9 +117,8 @@ $scopes = $zoomService->getScopes();
 
 ## API Documentation Sources
 
-[Zoom Developers - Zoom API Documentation](https://developers.zoom.us/docs/api/meetings/#tag/archiving/GET/past_meetings/{meetingUUID}/archive_files)
-[Harvard University - Zoom Integration Guide](https://portal.stage.apis.huit.harvard.edu/docs/ccs-zoom-api/1/overview)
-
+- [Zoom Developers - Zoom API Documentation](https://developers.zoom.us/docs/api/meetings/#tag/archiving/GET/past_meetings/{meetingUUID}/archive_files)
+- [Harvard University - Zoom Integration Guide](https://portal.stage.apis.huit.harvard.edu/docs/ccs-zoom-api/1/overview)
 
 ## Video Tutorials
 
