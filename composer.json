@@ -3,7 +3,7 @@
     "description": "This package provides an easy integration with Zoom's API, allowing developers to manage users, meetings, and more.",
     "type": "library",
     "license": "MIT",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "homepage": "https://digitalatum.com",
     "autoload": {
         "psr-4": {
