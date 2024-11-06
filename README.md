@@ -35,15 +35,48 @@ After running the update command in your Laravel project directory, and Composer
 
 Here is an example of how to use the package to create and manage meetings.
 
+### Initialization
+
 ```php
 use Abdulbaset\ZoomIntegration\ZoomIntegrationService;
 
 // Initialize the ZoomIntegrationService
 $zoomService = new ZoomIntegrationService($accountId, $clientId, $clientSecret);
+```
 
+### User Management
+
+```php
 // Get User Information
 $user = $zoomService->getUser();
 
+// Update User
+$updateData = [
+    'first_name' => 'John',
+    'last_name' => 'Doe',
+    'email' => 'john.doe@example.com',
+];
+$updatedUser = $zoomService->updateUser($userId, $updateData);
+
+// Create User
+$userData = [
+    'first_name' => 'Jane',
+    'last_name' => 'Doe',
+    'email' => 'jane.doe@example.com',
+    'type' => 1, // Pro user
+];
+$createdUser = $zoomService->createUser($userData);
+
+// List Users
+$listUsers = $zoomService->listUsers();
+
+// Delete User
+$deletedUser = $zoomService->deleteUser($userId);
+```
+
+### Meeting Management
+
+```php
 // Create a Meeting
 $meetingData = [
     'topic' => 'Test Meeting',
@@ -53,7 +86,6 @@ $meetingData = [
     'timezone' => 'UTC',
     'agenda' => 'Discuss project updates',
 ];
-
 $createdMeeting = $zoomService->createMeeting($meetingData);
 
 // Get Meeting Details
@@ -74,10 +106,20 @@ if ($meetingId) {
 
 // List all Meetings
 $listMeetings = $zoomService->listMeetings();
+```
 
+### Scopes Retrieval
+
+```php
 // Get Scopes
 $scopes = $zoomService->getScopes();
 ```
+
+## API Documentation Sources
+
+[Zoom Developers - Zoom API Documentation](https://developers.zoom.us/docs/api/meetings/#tag/archiving/GET/past_meetings/{meetingUUID}/archive_files)
+[Harvard University - Zoom Integration Guide](https://portal.stage.apis.huit.harvard.edu/docs/ccs-zoom-api/1/overview)
+
 
 ## Video Tutorials
 
@@ -91,8 +133,8 @@ This playlist provides in-depth tutorials on setting up and managing the Zoom AP
 
 You can find all the fields that you can add and their meanings through the following links:
 
-- [Fields in English](docs/zoom_fields_en.md)
-- [Fields in Arabic](docs/zoom_fields_ar.md)
+- [Fields in English](docs/Meeting-Fields/en.md)
+- [Fields in Arabic](docs/Meeting-Fields/ar.md)
 
 ## Author
 
