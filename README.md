@@ -79,6 +79,14 @@ $listMeetings = $zoomService->listMeetings();
 $scopes = $zoomService->getScopes();
 ```
 
+## Video Tutorials
+
+For a step-by-step guide on how to install and use this package, check out our YouTube playlist:
+
+[Zoom Integration Package Tutorials](https://youtube.com/playlist?list=PLcEe-K0XsWNmR5U8X_u4LnMJ1xb4_xo9E&si=s_pvADiElFHB_NtS)
+
+This playlist provides in-depth tutorials on setting up and managing the Zoom API features using this package.
+
 ## Notes
 
 You can find all the fields that you can add and their meanings through the following links:
