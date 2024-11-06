@@ -102,6 +102,10 @@ The package was created by Abdulbaset R. Sayed <AbdulbasetRedaSayedHF@Gmail.com>
 
 Contributions are welcome! If you encounter any issues or have suggestions for improvements, feel free to open an issue or submit a pull request on GitHub.
 
+## Change Log
+
+For a detailed list of changes and updates in each version, see the [Change Log](docs/CHANGELOG.md).
+
 ## License
 
 This Package is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
